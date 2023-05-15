@@ -10,3 +10,31 @@ if (number1 > number2) {
 } else {
   console.log("Largest number is :" + number2);
 }
+
+
+
+// Q2 Write javascript conditional statement to sort decending order three numbers. Display an alertbox to show the result. eg.  0, -1, 4
+var nOfInputs = prompt("How many numbers to sort ?");
+var inputNo = parseInt(nOfInputs);
+let Arr = [];
+for (let i=0; i<inputNo;i++){
+  var input = prompt("Enter number :");
+  var number = parseInt(input);
+  Arr.push(number) 
+}
+Arr.sort((a, b) => b - a);
+console.log("Sorted in decending order :" + Arr); 
+alert("Numbers Sorted :" + Arr);
+
+
+
+//// Q3 Write a javascript program for loop that iterates from 0 to 15. For each iteration, it checks if the current number is odd or even, and displays a message on the screen. eg. "0 is even" , "1 is odd".
+var INP = prompt("Enter number upto which to find all numbers from 0 even or odd :");
+var INP1 = parseInt(INP);
+for (let i=0;i<INP1+1;i++){
+  if (i % 2 == 0) {
+  console.log(i + " " + "is even number");
+} else {
+  console.log(i + " " + "is odd number");
+}
+}
