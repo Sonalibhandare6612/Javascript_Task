@@ -1,0 +1,12 @@
+
+//// Q3 Write a javascript program for loop that iterates from 0 to 15. For each iteration, it checks if the current number is odd or even, and displays 
+//  a message on the screen. eg. "0 is even" , "1 is odd".
+var INP = prompt("Enter number upto which to find all numbers from 0 even or odd :");
+var INP1 = parseInt(INP);
+for (let i=0;i<INP1+1;i++){
+  if (i % 2 == 0) {
+  console.log(i + " " + "is even number");
+} else {
+  console.log(i + " " + "is odd number");
+}
+}
