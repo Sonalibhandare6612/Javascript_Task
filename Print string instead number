@@ -1,0 +1,19 @@
+// Q4 Write a javascript program that iterates from 1 to 100. But for multiples of three print "Fizz", and for multiple of 5 "Buzz". For number multiples of both 3 and 5 print "Fizzbuzz"
+
+var INP = prompt("Enter number upto which to find all numbers from 0 even or odd :");
+var INP1 = parseInt(INP);
+for (i=1;i<=INP1;i++){
+
+  if (i % 3 === 0 && i % 5 === 0){
+    console.log("FizzBuzz")
+  }
+  else if (i % 5 === 0){
+    console.log("Buzz")
+  }
+  else if (i % 3 === 0){
+    console.log("Fizz")
+  }
+   else {
+    console.log(i)
+  }
+}
