@@ -1,0 +1,15 @@
+// Q1 Write a program that displays the largest integer among two intgers 
+
+var A = prompt("Enter first number :");
+var B = prompt("Enter second number :");
+var number1 = parseInt(A);
+var number2 = parseInt(B);
+
+if (number1 > number2) {
+  console.log("Largest number is :" + number1);
+} else {
+  console.log("Largest number is :" + number2);
+}
+
+
+
