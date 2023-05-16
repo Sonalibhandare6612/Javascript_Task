@@ -1,0 +1,14 @@
+// Q2 Write javascript conditional statement to sort decending order three numbers. Display an alertbox to show the result. eg.  0, -1, 4
+var nOfInputs = prompt("How many numbers to sort ?");
+var inputNo = parseInt(nOfInputs);
+let Arr = [];
+for (let i=0; i<inputNo;i++){
+  var input = prompt("Enter number :");
+  var number = parseInt(input);
+  Arr.push(number) 
+}
+Arr.sort((a, b) => b - a);
+console.log("Sorted in decending order :" + Arr); 
+alert("Numbers Sorted :" + Arr);
+
+
