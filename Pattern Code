@@ -1,0 +1,16 @@
+// Q6 Write a javascript program to construct pattern given below.
+//           *
+//           * *
+//           * * *   
+//           * * * *
+//           * * * * *
+
+var ROW = prompt("Enter no of rows");
+var ROWS = parseInt(ROW);
+for (let i = 1; i <= ROWS; i++){
+  let pattern = "";
+  for (let j = 1; j <= i; j++){
+    pattern += "* ";
+  }
+  console.log(pattern);
+}
