@@ -1,0 +1,10 @@
+// Q5 Write a Javascript program to sum 3 and 5 multiples under 1000
+var INP = prompt("Enter number upto which to find all numbers from 0 even or odd :");
+var INP1 = parseInt(INP);
+var SUMNUM = 0;
+for (i=1;i<=INP1;i++){
+  if (i % 3 === 0 || i % 5 === 0 ){
+    SUMNUM += i ;
+  }
+}
+console.log(SUMNUM)
