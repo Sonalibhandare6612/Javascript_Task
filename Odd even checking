@@ -1,0 +1,9 @@
+// Q9 Write a program that checks if a given number is even or odd using an if-else statement.
+INP = prompt("Enter Number :");
+var A = parseInt(INP);
+if (A % 2 === 0){
+  console.log(A + " " + "is a Even number.");
+}
+else{
+  console.log(A + " " + "is Odd number.")
+}
