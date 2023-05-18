@@ -1,0 +1,10 @@
+// Q10 Write a program that takes a string as input and counts the number of vowels in the string using a for loop and an if-else statement.
+var A = prompt("Enter string :");
+var count = 0;
+for (let i = 0; i < A.length; i++){
+  var INP = A[i].toLowerCase();
+  if (INP == 'a' || INP == 'e' || INP == 'i' ||  INP == 'o' || INP == 'u' ) {
+    count = count + 1;
+  }
+}
+console.log("There are" + " " + count + " " + "vowels in given string.");
